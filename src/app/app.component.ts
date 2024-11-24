@@ -59,11 +59,10 @@ const myPreset = definePreset(Lara, {
 });
 
 @Component({
-  selector: "acs-root",
-  standalone: true,
-  imports: [RouterOutlet, HeaderComponent, ScrollableContentComponent],
-  templateUrl: "./app.component.html",
-  styleUrl: "./app.component.css",
+    selector: "acs-root",
+    imports: [RouterOutlet, HeaderComponent, ScrollableContentComponent],
+    templateUrl: "./app.component.html",
+    styleUrl: "./app.component.css"
 })
 export class AppComponent {
   constructor(private config: PrimeNGConfig) {
