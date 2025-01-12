@@ -1,47 +1,45 @@
-<section
-  class="w-full max-w-full px-4 lg:px-16 -translate-y-16 md:-translate-y-24"
->
+<section class="px-4 lg:px-16 animate-zoomin">
   <article
-    class="w-full flex flex-col justify-between 2xl:flex-row rounded-lg backdrop-blur-lg bg-amber-300/30"
+    class="flex flex-col justify-center 2xl:flex-row rounded-lg bg-amber-200"
   >
-    <div class="w-full flex justify-between p-4 lg:p-8">
-      <p-imagecompare class="shadow-lg rounded-lg">
-        <ng-template #right>
-          <img src="ZEUS-PHOTO.jpg" />
-        </ng-template>
-
-        <ng-template #left>
-          <img src="ZEUS.jpg" />
-        </ng-template>
-      </p-imagecompare>
-    </div>
-    <div class="w-full p-4 lg:p-8">
-      <div class="columns-3 gap-y-4">
-        <img
-          class="w-full aspect-auto rounded-lg"
-          ngSrc="BUFFY.webp"
-          width="300"
-          height="300"
-        />
-        <img
-          class="w-full aspect-auto rounded-lg"
-          ngSrc="LABRADOR.webp"
-          width="300"
-          height="300"
-        />
-        <img
-          class="w-full aspect-auto rounded-lg"
-          ngSrc="LIA.webp"
-          width="300"
-          height="300"
-        />
-        <img
-          class="w-full aspect-auto rounded-lg"
-          ngSrc="SELVA.webp"
-          width="300"
-          height="300"
-        />
-      </div>
+    <!--<div class="w-full flex justify-between p-4 lg:p-8">-->
+    <!--  <p-imagecompare class="shadow-lg rounded-lg">-->
+    <!--    <ng-template #right>-->
+    <!--      <img src="ZEUS-PHOTO.jpg" />-->
+    <!--    </ng-template>-->
+    <!---->
+    <!--    <ng-template #left>-->
+    <!--      <img src="ZEUS.jpg" />-->
+    <!--    </ng-template>-->
+    <!--  </p-imagecompare>-->
+    <!--</div>-->
+    <div
+      class="p-8 min-h-full flex sm:flex-wrap sm:justify-center max-w-screen-2xl gap-6 overflow-y-hidden overflow-x-scroll sm:overflow-x-hidden"
+    >
+      <img
+        class="aspect-[3/4] rounded-lg"
+        ngSrc="ZEUS.webp"
+        width="300"
+        height="300"
+      />
+      <img
+        class="aspect-[3/4] rounded-lg"
+        ngSrc="LIA.webp"
+        width="300"
+        height="300"
+      />
+      <img
+        class="aspect-[3/4] rounded-lg"
+        ngSrc="BUFFY.webp"
+        width="300"
+        height="300"
+      />
+      <img
+        class="aspect-[3/4] rounded-lg"
+        ngSrc="SELVA.webp"
+        width="300"
+        height="300"
+      />
     </div>
   </article>
 </section>
